@@ -14,7 +14,6 @@ SSOOIIGLE: dirs
 all: SSOOIIGLE
 
 test: SSOOIIGLE
-	cd $(DIREXEC)
 	$(RUN)$(DIREXEC)SSOOIIGLE libros/SEAMOS\ PERSONAS\ DE\ INFLUENCIA\ -\ JOHN\ MAXWELL.txt influencia 5
 
 clean:
