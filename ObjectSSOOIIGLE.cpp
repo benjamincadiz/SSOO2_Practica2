@@ -1,9 +1,9 @@
-//
-//  ObjectSSOOIIGLE.cpp
-//  
-//
-//  Created by Benjamin Cadiz de Gracia on 8/3/18.
-//
+/*
+ /  ObjectSSOOIIGLE.cpp:
+ Clase objeto que contiene cada todo lo relacionado con cada ocurrencia.
+/
+/  Created by Benjamin Cadiz de Gracia on 8/3/18.
+*/
 
 #include <thread>
 #include <iostream>

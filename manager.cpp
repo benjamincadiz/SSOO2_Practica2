@@ -1,9 +1,10 @@
-//
-//  manager.cpp
-//  
-//
-//  Created by Benjamin Cadiz de Gracia on 8/3/18.
-//
+/*
+ /  manager.cpp:
+ 	Clase principal donde realizaremos un control de errores y realizaremos la llamada a otra clase que
+ 	es la que realizará la busqueda de las ocurrencias.
+/
+/  Created by Benjamin Cadiz de Gracia on 8/3/18.
+*/
 
 #include <iostream>
 #include <sstream>
@@ -19,7 +20,6 @@
 int main(int argc, char **argv){
     std::string fichero, word,hil,prueba;
     int hilos,lines,linesXhilo;
-    
     if(argc != 4){
         fprintf(stderr,"[ERROR] El número de argumentos no es válido.\nSintásis: ./SSOOIIGLE <ficheroDeTexto> <PalabraABuscar> <NºdeHilos> \n");
         exit(EXIT_FAILURE);
